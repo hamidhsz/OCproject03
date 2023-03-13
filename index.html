@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- <div id= "spinercontainer">
+        <div class="lds-dual-ring"></div>
+    </div> -->
     <header>
         <a href="index.html"><img src="./images/logo/ohmyfood@2x.svg" alt ="logo of the website"></a>
     </header>
@@ -27,25 +30,47 @@
         </div>
     </section>
 
-    <h1 style="padding-top: 45px;padding-left: 20px;">How it works</h1>
+    <h2 id="titleHow">How it works</h2>
     <div id="HowItWorks">
-        <div id ="buttonHowitworks">
-            <p>1</p>
+        
+        <div class ="buttonHowitworks">
+            <div class="step-number">1</div>
             <i class="fa-solid fa-mobile-screen-button"></i>
             Choose a restaurant
         </div>
-        <div id ="buttonHowitworks">
+        <div class ="buttonHowitworks">
+            <div class="step-number">2</div>
             <i class="fa-solid fa-list"></i>
             Create your menu
         </div>
-        <div id ="buttonHowitworks">
+        <div class ="buttonHowitworks button3">
+            <div class="step-number">3</div>
             <i class="fa-solid fa-store"></i>
             Go enjoy it at the restaurant
         </div>
+        
     </div>
 
+    
+    
     <section id="restaurants">
-        <h1>Restaurants</h1>
+        <h2 id="title-resturant">Restaurants</h2>
+        <div class="restaurant-column">
+            <div class="restaurantCard">
+                <div class="restaurantBackgroundImg"
+                    style="background-image: url('./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg');">
+                </div>
+                <div id = "textInCard">
+                    <p>The Full Palette</p>
+                    <p>New York</p>                    
+                </div>
+                <div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            
+            
+        </div>
     </section>
 
     <footer>
