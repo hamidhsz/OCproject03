@@ -179,7 +179,8 @@
 
   .restaurant-column {
     display: flex;
-  
+    flex-direction: column;
+    gap: 20px;
   }
 
   .restaurantCard {
@@ -200,6 +201,20 @@
     background-position: 50% 50%;
   }
 
+  .NEW-button {
+    width: 80px;
+    height: 30px;
+    background-color: #99E2D0;
+    color: #008766;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 20px; 
+  }
+
   #textInCard {
     padding-left: 15px;
   }
@@ -210,14 +225,18 @@
   }
 
   .restaurantCard .fa-heart {
-    position: absolute;
     color: red;
     font-size: 20px;
-    right: 55px;
-    padding-top: ;
+    padding-top: 12px;
 
   }
-  
+
+  #TextandHeart{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
 
   
   footer{
