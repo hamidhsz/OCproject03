@@ -281,6 +281,9 @@
       opacity: 1;
       transform: scale(1);
       background: linear-gradient(#FF79DA, #9356DC);
+      background-clip: padding-box; 
+      /* without backgrond-clip there was an error saying: Also define the standard property 'background-clip' for compatibility */
+      /* so I added backgrond-clip */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
   }
