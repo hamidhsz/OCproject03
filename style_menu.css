@@ -10,6 +10,7 @@
   header{
     display:flex;
     align-items: center;
+    justify-content:space-between;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -17,7 +18,15 @@
   header i{
     font-size: 20px;
     margin-left: 21px;
-    margin-right: 62px;
+    color: black;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .logo img {
+    display: block;
   }
   
   /* images of the resturants  */
@@ -47,7 +56,7 @@
 
   /* images of the resturants  */
 
-  #restaurantMenu{
+  .restaurantMenu{
     display: flex;
     flex-direction: column;
     background-color: #F6F6F6;
@@ -66,7 +75,7 @@
 
     }
 
-    #MENU{
+    .MENU{
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -77,16 +86,11 @@
     .menuTitle{
     font-weight: lighter;
     padding-left: 10px;
-    position: relative;
+    position: relative; 
     }
 
-    .menuTitle:before {
-      position: absolute;
-      left: 20;
-      top: 1.2em;
-      height: 0;
-      width: 39px;
-      content: '';
+
+    .text_underline{
       border-bottom: 3px solid #90DECA;
     }
 
@@ -102,18 +106,31 @@
       animation-duration: 1.5s;
       animation-timing-function: ease-in-out;
       animation-fill-mode: forwards;
+
     }
 
     @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(0%);
+      transform: translateY(20%);
     }
     to {
       opacity: 1;
-      transform: translateY(10%);
+      transform: translateY(0%);
     }
     }
+
+    .delay3sec .dishContainer{
+      animation-delay: 2s;
+
+    }
+
+    .delay4sec .dishContainer{
+      animation-delay: 3s;
+
+    }
+
+
  
     .dishContent {
       padding-left: 16px;
@@ -204,8 +221,9 @@
       display: flex;
       align-items: center;
       margin-bottom: 10px;
-      font-family:
+
     }
+    
     footer h3 {
       font-family: 'Shrikhand';
       margin-bottom: 20px;
@@ -214,6 +232,17 @@
     ul li span {
       padding-left: 10px; 
     }
+
+    .text{
+      padding-left: 16px;
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+
 
 
 

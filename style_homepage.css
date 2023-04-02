@@ -137,16 +137,12 @@
     border-radius: 50px;
     font-size: 20px;
     padding-left: 40px;
+    cursor: pointer;
   }
 
-  .button3 {
-    background-color: #F5EDFF; 
-  }
-
-  .button3 i {
-    color: #9356DC
-  }
-
+  .buttonHowitworks:hover{
+    background-color: #F5EDFF;
+  } 
 
   .step-number {
     width: 22px;
@@ -246,11 +242,11 @@
     margin-top: 20px; 
   }
 
-  #textInCard {
+  .textInCard {
     padding-left: 15px;
   }
   
-  #textInCard p + p {
+  .textInCard p + p {
     margin-top: 5px;
     font-weight: lighter;
   }
@@ -262,7 +258,7 @@
   }
 
 
-  #TextandHeart{
+  .TextandHeart{
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -311,7 +307,6 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    font-family:
   }
   footer h3 {
     font-family: 'Shrikhand';
@@ -322,6 +317,11 @@
     padding-left: 10px; 
   }
 
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
 
   @media only screen and (max-width: 360px) {
     .buttonHowitworks{
@@ -329,7 +329,21 @@
     }
   }
 
+  @media only screen and (min-width: 767px ){
+    #HowItWorks {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
 
+  }
+    .restaurant-column{
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  
 
 
 
