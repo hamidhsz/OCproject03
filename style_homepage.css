@@ -5,7 +5,11 @@
     font-family: "Roboto";
   }
 
-  /* .lds-dual-ring {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .lds-dual-ring {
     display: inline-block;
     width: 80px;
     height: 80px;
@@ -28,9 +32,9 @@
     100% {
       transform: rotate(360deg);
     }
-  } */
+  }
 
-  /* #spinercontainer{
+  #spinercontainer{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -43,11 +47,11 @@
     animation: slide 0.02s;
     animation-fill-mode: forwards;
     animation-delay: 1s;
-    z-index: 1000; /*bring this to the very top page
+    z-index: 1000; /*bring this to the very top page */
   }
-    */
+    
   
-  /* @keyframes slide {
+  @keyframes slide {
     from {
         top: 0;
     }
@@ -55,7 +59,7 @@
     to {
         top: -100%;
     }
-  } */
+  }
   
   header{
     display:flex;
@@ -144,6 +148,10 @@
     background-color: #F5EDFF;
   } 
 
+  .buttonHowitworks:hover i{
+    color: #9356DC;
+  }
+
   .step-number {
     width: 22px;
     height: 22px;
@@ -187,6 +195,10 @@
     flex-direction: column;
     gap: 20px;
     margin-bottom: 40px;
+  }
+
+  .restaurant-column a{
+    color: black;
   }
 
   .restaurantCard {

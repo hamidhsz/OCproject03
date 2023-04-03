@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <div id= "spinercontainer">
+    <div id= "spinercontainer">
         <div class="lds-dual-ring"></div>
-    </div> -->
+    </div>
     <header>
         <a href="index.html"><img src="./images/logo/ohmyfood@2x.svg" alt ="logo of the website"></a>
     </header>
@@ -25,9 +25,11 @@
     <section id ="bookmenu">
         <h1>Book the menu you like</h1>
         <p>Discover top-of-the-art restaurants we picked for you</p>
-        <div class ="button">
-            Explore our restaurants
-        </div>
+        <a href="#title-resturant">
+            <div class ="button">
+                Explore our restaurants
+            </div>
+        </a>
     </section>
 
     <h2 id="titleHow">How it works</h2>
@@ -55,8 +57,10 @@
     
     <section id="restaurants">
         <h2 id="title-resturant">Restaurants</h2>
+        
         <div class="restaurant-column">
-            <div class="restaurantCard">
+            <a href="./TheFullPalette.html">
+                <div class="restaurantCard">
                 <div class="NEW-button">New</div>
                 <div class="restaurantBackgroundImg img1"></div>  <!-- to move the style to css a new div called img1 defined -->
                 <div class="TextandHeart">
@@ -70,7 +74,8 @@
                     </div>
                 </div>
             </div>
-
+            </a>
+            <a href="./TheEnchantedPlate.html">
             <div class="restaurantCard">
                 <div class="NEW-button">New</div>
                 <div class="restaurantBackgroundImg img2"></div>  
@@ -85,8 +90,9 @@
                     </div>
                 </div>
             </div>
+            </a>
 
-            
+            <a href="./bastille.html"> 
             <div class="restaurantCard">
                 <div class="restaurantBackgroundImg img3"></div>
                 <div class="TextandHeart">
@@ -100,8 +106,9 @@
                     </div>
                 </div>
             </div>
+            </a>
             
-
+            <a href="./LeGourmand.html"> 
             <div class="restaurantCard">
                 <div class="restaurantBackgroundImg img4"></div>  
                 <div class="TextandHeart">
@@ -115,6 +122,7 @@
                     </div>
                 </div>
             </div>
+            </a>
         </div>
     </section>
 
@@ -129,7 +137,7 @@
                 <span class="text">Become a partner</span> 
             </li>
             <li>Legal</li>
-            <a href="mailto:example@example.com?Subject=Thank you!&Body=Hello"><li>Contact</li></a>
+            <li><a href="mailto:example@example.com?Subject=Thank%20you!&Body=Hello">Contact</a></li>
         </ul>
         <br>
     </footer>
