@@ -109,8 +109,14 @@
     height: 50px;
     margin: 30px;
     background: linear-gradient(#FF79DA, #9356DC);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     color: white;
     border-radius: 50px;
+  }
+
+  .button:hover {
+    background: linear-gradient(#FF6EC7, #8F3F97);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
   }
 
   #titleHow{
